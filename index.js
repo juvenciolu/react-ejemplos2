@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <div>
         <Hello name={this.state.name} />
-       <MemeContainer />
+       <MemeContainer name='Name from props'/>
       </div>
     );
   }
