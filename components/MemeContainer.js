@@ -9,6 +9,17 @@ class MemeContainer extends Component{
     }
 
   }
+  componentDidMount(){
+    this.setState({name:'xcxx'});
+
+    //alert("Montado");
+
+  }
+   componentDidUpdate(){
+    alert("Actualizado");
+
+  }
+
   render(){
     const name= this.state.name
     const name2= this.props.name
